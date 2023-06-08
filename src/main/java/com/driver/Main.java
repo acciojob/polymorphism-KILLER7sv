@@ -16,11 +16,8 @@ public class Main {
     public static void main(String[] args) {
         Product p = new Product();
         int first = p.product(5 , 6);
-        System.out.println(first);
         int second = p.product(5 , 6 ,2);
         double third = p.product(2,3);
-        System.out.println(second);
-        System.out.println(third);
     }
 
 }
